@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import App2 from './state.js'
 import App3 from './state2.js'
+import Clock from './ex.js'
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         </p>
         <App2/>
         <App3/>
+        <Clock />
       </div>
     );
   }
