@@ -4,6 +4,9 @@ import './App.css';
 import App2 from './state.js'
 import App3 from './state2.js'
 import Clock from './ex.js'
+import LoginControl from './loginControl.js';
+import LogoutButton from './loginButton.js';
+import LoginButton from './loginButton.js';
 
 class App extends Component {
   render() {
@@ -19,6 +22,10 @@ class App extends Component {
         <App2/>
         <App3/>
         <Clock />
+        <LoginButton />
+        <LoginControl />
+        <LogoutButton />
+
       </div>
     );
   }
