@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -6,8 +7,7 @@ import App3 from './state2.js'
 import Clock from './ex.js'
 import LoginControl from './loginControl.js';
 import LogoutButton from './loginButton.js';
-import LoginButton from './loginButton.js';
-
+import LoginButton from './loginButton.js'
 class App extends Component {
   render() {
     return (
@@ -25,10 +25,8 @@ class App extends Component {
         <LoginButton />
         <LoginControl />
         <LogoutButton />
-
-      </div>
-    );
+ </div>
+    )
   }
 }
-
 export default App;
