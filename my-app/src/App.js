@@ -7,7 +7,9 @@ import App3 from './state2.js'
 import Clock from './ex.js'
 import LoginControl from './loginControl.js';
 import LogoutButton from './loginButton.js';
-import LoginButton from './loginButton.js'
+import LoginButton from './loginButton.js';
+import List from './list.js';
+import Calculator from './liftingstate.js';
 class App extends Component {
   render() {
     return (
@@ -25,6 +27,9 @@ class App extends Component {
         <LoginButton />
         <LoginControl />
         <LogoutButton />
+        <List/> 
+        <Calculator />
+        
  </div>
     )
   }
