@@ -10,6 +10,7 @@ import LogoutButton from './loginButton.js';
 import LoginButton from './loginButton.js';
 import List from './list.js';
 import Calculator from './liftingstate.js';
+import Contacts from './Comp.js';
 class App extends Component {
   render() {
     return (
@@ -29,6 +30,7 @@ class App extends Component {
         <LogoutButton />
         <List/> 
         <Calculator />
+        <Contacts/>
         
  </div>
     )
