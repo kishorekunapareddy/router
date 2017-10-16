@@ -11,6 +11,7 @@ import LoginButton from './loginButton.js';
 import List from './list.js';
 import Calculator from './liftingstate.js';
 import Contacts from './Comp.js';
+import BasicExample from './Router.js';
 class App extends Component {
   render() {
     return (
@@ -31,6 +32,7 @@ class App extends Component {
         <List/> 
         <Calculator />
         <Contacts/>
+        <BasicExample/>
         
  </div>
     )
